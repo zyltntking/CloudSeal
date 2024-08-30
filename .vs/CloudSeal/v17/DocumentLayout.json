@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBBEDEC-FCB1-4F81-B8E9-7D7C7E273F04}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\CloudSeal.App.CloudSealHost.AppHost.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBBEDEC-FCB1-4F81-B8E9-7D7C7E273F04}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\CloudSeal.App.CloudSealHost.AppHost.csproj|solutionrelative:src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD1D4D8-9E07-44E8-B90A-D0EC1C4C8BA8}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\CloudSeal.App.CloudSealHost.ServiceDefaults.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD1D4D8-9E07-44E8-B90A-D0EC1C4C8BA8}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\CloudSeal.App.CloudSealHost.ServiceDefaults.csproj|solutionrelative:src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 232,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,6 +71,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
+              "RelativeToolTip": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:49:20.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
+              "RelativeDocumentMoniker": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
+              "RelativeToolTip": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:48:42.96Z",
+              "EditorCaption": ""
             }
           ]
         },
