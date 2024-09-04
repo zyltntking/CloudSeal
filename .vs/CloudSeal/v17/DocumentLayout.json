@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDBBEDEC-FCB1-4F81-B8E9-7D7C7E273F04}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\CloudSeal.App.CloudSealHost.AppHost.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBBEDEC-FCB1-4F81-B8E9-7D7C7E273F04}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\CloudSeal.App.CloudSealHost.AppHost.csproj|solutionrelative:src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D72D00-9B6E-4597-B36E-F3129BA72F86}|src\\Core\\CloudSeal.Core\\CloudSeal.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\core\\cloudseal.core\\definitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D72D00-9B6E-4597-B36E-F3129BA72F86}|src\\Core\\CloudSeal.Core\\CloudSeal.Core.csproj|solutionrelative:src\\core\\cloudseal.core\\definitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD1D4D8-9E07-44E8-B90A-D0EC1C4C8BA8}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\CloudSeal.App.CloudSealHost.ServiceDefaults.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD1D4D8-9E07-44E8-B90A-D0EC1C4C8BA8}|src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\CloudSeal.App.CloudSealHost.ServiceDefaults.csproj|solutionrelative:src\\app\\cloudseal.app.cloudsealhost\\cloudseal.app.cloudsealhost.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D72D00-9B6E-4597-B36E-F3129BA72F86}|src\\Core\\CloudSeal.Core\\CloudSeal.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\core\\cloudseal.core\\slots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D72D00-9B6E-4597-B36E-F3129BA72F86}|src\\Core\\CloudSeal.Core\\CloudSeal.Core.csproj|solutionrelative:src\\core\\cloudseal.core\\slots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,27 +75,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
-              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
-              "RelativeToolTip": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.AppHost\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Title": "Definitions.cs",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Core\\CloudSeal.Core\\Definitions.cs",
+              "RelativeDocumentMoniker": "src\\Core\\CloudSeal.Core\\Definitions.cs",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Core\\CloudSeal.Core\\Definitions.cs",
+              "RelativeToolTip": "src\\Core\\CloudSeal.Core\\Definitions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T08:49:20.018Z",
+              "WhenOpened": "2024-09-04T10:09:01.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
-              "RelativeDocumentMoniker": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
-              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
-              "RelativeToolTip": "src\\App\\CloudSeal.App.CloudSealHost\\CloudSeal.App.CloudSealHost.ServiceDefaults\\Extensions.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwAMAAAAyAAAAAAAAAA==",
+              "Title": "Slots.cs",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Core\\CloudSeal.Core\\Slots.cs",
+              "RelativeDocumentMoniker": "src\\Core\\CloudSeal.Core\\Slots.cs",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Core\\CloudSeal.Core\\Slots.cs",
+              "RelativeToolTip": "src\\Core\\CloudSeal.Core\\Slots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T08:48:42.96Z",
+              "WhenOpened": "2024-09-04T08:53:10.872Z",
               "EditorCaption": ""
             }
           ]

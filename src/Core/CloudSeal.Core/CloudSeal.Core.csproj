@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Authors>zyltntking</Authors>
+		<Company>CloudSeal</Company>
+		<Product>CloudSeal.Net</Product>
+		<Description>CloudSeal.NET App Build Tools</Description>
+		<Copyright>Copyright © zyltntking 2014</Copyright>
+		<Summary>CloudSeal.NET App Build Tools</Summary>
+		<Title>CloudSeal.NET</Title>
+		<PackRelease>true</PackRelease>
+		<PublishRelease>true</PublishRelease>
+		<PackageId>CloudSeal.Core</PackageId>
+		<PackageTags>data</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/zyltntking/CloudSeal</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/zyltntking/CloudSeal</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<RootNamespace>CloudSeal.Core</RootNamespace>
+		<AssemblyName>CloudSeal.Core</AssemblyName>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<DocumentationFile>CloudSeal.Core.xml</DocumentationFile>
+		<CopyDocumentationFilesFromPackages>True</CopyDocumentationFilesFromPackages>
+		<Nullable>enable</Nullable>
+		<MinClientVersion>4.1.0</MinClientVersion>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

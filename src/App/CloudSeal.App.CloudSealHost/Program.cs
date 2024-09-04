@@ -7,7 +7,7 @@ var password = builder.AddParameter("password", true);
 var redis = builder
     //.AddRedis("RedisInstance")
     //.PublishAsConnectionString();
-    .AddRedis("RedisInstance", 6379)
+    .AddRedis("RedisInstance", port: 6379)
     .WithImage("redis", "7.4")
     .WithRedisCommander(config =>
     {
@@ -19,7 +19,7 @@ var redis = builder
 var postgresql = builder
     //.AddPostgres("PostgresInstance")
     //.PublishAsConnectionString();
-    .AddPostgres("PostgresInstance", username, password, 5432)
+    .AddPostgres("PostgresInstance", username, password, port: 5432)
     .WithImage("postgres", "16.4")
     .WithPgAdmin(config =>
     {
@@ -30,8 +30,7 @@ var postgresql = builder
     .AddDatabase("CloudSeal");
 
 var mongodb = builder
-    .AddMongoDB("MongoInstance", 27017)
-    .WithImage("mongo", "7.0")
+    .AddMongoDB("MongoInstance", port: 27017)
     .WithMongoExpress(config =>
     {
         config.WithHostPort(27020);
@@ -40,15 +39,13 @@ var mongodb = builder
     .WithVolume("mongo-configdb-volume", "/data/configdb")
     .AddDatabase("document");
 
-var rabbitmq = builder
-    .AddRabbitMQ("RabbitMqInstance", username, password, 5672)
-    //.WithImage("rabbitmq", "3.13-management")
-    .WithManagementPlugin(15672)
-    .WithDataVolume("rabbit-data-volume");
+//var rabbitmq = builder
+//    .AddRabbitMQ("RabbitMqInstance", username, password, 5672)
+//    .WithManagementPlugin(15672)
+//    .WithDataVolume("rabbit-data-volume");
 
 //var nats = builder
 //    .AddNats("NatsInstance", 4222)
-//    .WithImage("nats", "2.10")
 //    .WithJetStream()
 //    .WithDataVolume("nats-data-volume");
 
