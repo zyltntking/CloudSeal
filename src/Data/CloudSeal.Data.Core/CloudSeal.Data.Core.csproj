@@ -15,17 +15,17 @@
 		<Title>CloudSeal.NET</Title>
 		<PackRelease>true</PackRelease>
 		<PublishRelease>true</PublishRelease>
-		<PackageId>CloudSeal.Core</PackageId>
+		<PackageId>CloudSeal.Data.Core</PackageId>
 		<PackageTags>data</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageProjectUrl>https://github.com/zyltntking/CloudSeal</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/zyltntking/CloudSeal</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<RootNamespace>CloudSeal.Core</RootNamespace>
-		<AssemblyName>CloudSeal.Core</AssemblyName>
+		<RootNamespace>CloudSeal.Data.Core</RootNamespace>
+		<AssemblyName>CloudSeal.Data.Core</AssemblyName>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<DocumentationFile>CloudSeal.Core.xml</DocumentationFile>
+		<DocumentationFile>CloudSeal.Data.Core.xml</DocumentationFile>
 		<CopyDocumentationFilesFromPackages>True</CopyDocumentationFilesFromPackages>
 		<Nullable>enable</Nullable>
 		<MinClientVersion>4.1.0</MinClientVersion>

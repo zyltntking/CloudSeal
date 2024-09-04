@@ -1,0 +1,1 @@
+﻿# CloudSeal.Data.Core

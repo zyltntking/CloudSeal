@@ -1,4 +1,4 @@
-﻿namespace CloudSeal.Core;
+﻿namespace CloudSeal.Data.Core;
 
 /// <summary>
 ///     数据戳代理接口

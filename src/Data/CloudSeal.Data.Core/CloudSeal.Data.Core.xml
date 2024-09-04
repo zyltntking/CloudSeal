@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+
+<doc>
+	<assembly>
+		<name>CloudSeal.Data.Core</name>
+	</assembly>
+	<members>
+		<member name="T:CloudSeal.Core.IEntityDefinition">
+			<summary>
+				实体定义接口
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Core.IEntityInfoDefinition">
+			<summary>
+				实体信息定义接口
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Core.IEntityPackageDefinition">
+			<summary>
+				实体数据包定义接口
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IStampProxy`1">
+			<summary>
+				数据戳代理接口
+			</summary>
+			<typeparam name="TStamp"></typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IStampProxy`1.GenerateStamp">
+			<summary>
+				生成数据戳
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IModelDefinition`4">
+			<summary>
+				模型定义接口
+			</summary>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TTimeStamp">时间戳类型</typeparam>
+			<typeparam name="THandler">操作标识类型</typeparam>
+			<typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IPartitionModelDefinition`5">
+			<summary>
+				分区模型定义接口
+			</summary>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TTimeStamp">时间戳类型</typeparam>
+			<typeparam name="THandler">操作标识类型</typeparam>
+			<typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
+			<typeparam name="TPartition">分区标识类型</typeparam>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ISoftDeleteModelDefinition`6">
+			<summary>
+				软删除模型定义接口
+			</summary>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TTimeStamp">时间戳类型</typeparam>
+			<typeparam name="THandler">操作标识类型</typeparam>
+			<typeparam name="TSoftDeleteTimeStamp">软删除时间戳类型</typeparam>
+			<typeparam name="TSoftDeleteHandler">软删除操作标识类型</typeparam>
+			<typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ISoftDeleteModelDefinition`7">
+			<summary>
+				软删除模型定义接口
+			</summary>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TTimeStamp">时间戳类型</typeparam>
+			<typeparam name="THandler">操作标识类型</typeparam>
+			<typeparam name="TSoftDeleteTimeStamp">软删除时间戳类型</typeparam>
+			<typeparam name="TSoftDeleteHandler">软删除操作标识类型</typeparam>
+			<typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
+			<typeparam name="TPartition">分区标识类型</typeparam>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IKeySlot`1">
+			<summary>
+				键插槽接口
+			</summary>
+			<typeparam name="TKey">键类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IKeySlot`1.Id">
+			<summary>
+				标识
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IParentKeySlot`1">
+			<summary>
+				父项目键插槽接口
+			</summary>
+			<typeparam name="TParentKey">夫项目键类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IParentKeySlot`1.ParentId">
+			<summary>
+				父项目标识
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IPartitionSlot`1">
+			<summary>
+				分区标识插槽接口
+			</summary>
+			<typeparam name="TPartition">分区标识类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IPartitionSlot`1.Partition">
+			<summary>
+				分区标识
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ICheckStampSlot`1">
+			<summary>
+				校验戳插槽接口
+			</summary>
+			<typeparam name="TCheckStamp">校验戳类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ICheckStampSlot`1.CheckStamp">
+			<summary>
+				校验戳
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ISecurityStampSlot`1">
+			<summary>
+				安全戳插槽接口
+			</summary>
+			<typeparam name="TSecurityStamp">安全戳类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ISecurityStampSlot`1.SecurityStamp">
+			<summary>
+				安全戳
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IConcurrencyStampSlot`1">
+			<summary>
+				并发戳插槽接口
+			</summary>
+			<typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IConcurrencyStampSlot`1.ConcurrencyStamp">
+			<summary>
+				并发戳
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ITimeStampSlot`1">
+			<summary>
+				时间戳插槽接口
+			</summary>
+			<typeparam name="TTimeStamp">时间戳类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ITimeStampSlot`1.CreatedAt">
+			<summary>
+				创建时间
+			</summary>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ITimeStampSlot`1.UpdatedAt">
+			<summary>
+				更新时间
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ISoftDeleteTimeStampSlot`1">
+			<summary>
+				软删除时间戳插槽接口
+			</summary>
+			<typeparam name="TTimeStamp">时间戳类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ISoftDeleteTimeStampSlot`1.DeletedAt">
+			<summary>
+				删除时间
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IHandlerSlot`1">
+			<summary>
+				操作标识插槽接口
+			</summary>
+			<typeparam name="THandler">操作标识类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IHandlerSlot`1.CreateBy">
+			<summary>
+				创建标识
+			</summary>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IHandlerSlot`1.ModifyBy">
+			<summary>
+				修改标识
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ISoftDeleteHandlerSlot`1">
+			<summary>
+				软删除操作标识插槽接口
+			</summary>
+			<typeparam name="THandler"></typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ISoftDeleteHandlerSlot`1.RemoveBy">
+			<summary>
+				移除标识
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ITreeItemDefinition`2">
+			<summary>
+				树结构项目定义接口
+			</summary>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TParentKey">父项目标识类型</typeparam>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ITreeNodeInfoDefinition`2">
+			<summary>
+				树结构节点信息定义接口
+			</summary>
+			<typeparam name="TTreeEntityInfo">树结构项目信息类型</typeparam>
+			<typeparam name="TKey">标识类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.ITreeNodeInfoDefinition`2.Children">
+			<summary>
+				子节点集合
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IBinaryTreeNodeInfoDefinition`2">
+			<summary>
+				二叉树结构节点信息定义接口
+			</summary>
+			<typeparam name="TTreeEntityInfo">树结构项目信息类型</typeparam>
+			<typeparam name="TKey">标识类型</typeparam>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IBinaryTreeNodeInfoDefinition`2.LeftChild">
+			<summary>
+				左子节点
+			</summary>
+		</member>
+		<member name="P:CloudSeal.Data.Core.IBinaryTreeNodeInfoDefinition`2.RightChild">
+			<summary>
+				右子节点
+			</summary>
+		</member>
+		<member name="T:CloudSeal.Data.Core.ITreeNodeDefinition`3">
+			<summary>
+				树结构节点定义接口
+			</summary>
+			<typeparam name="TTreeEntity">树结构项目类型</typeparam>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TParentKey">父项目标识类型</typeparam>
+		</member>
+		<member name="T:CloudSeal.Data.Core.IBinaryTreeNodeDefinition`3">
+			<summary>
+				二叉树结构节点定义接口
+			</summary>
+			<typeparam name="TTreeEntity">二叉树结构项目类型</typeparam>
+			<typeparam name="TKey">标识类型</typeparam>
+			<typeparam name="TParentKey">父项目标识类型</typeparam>
+		</member>
+	</members>
+</doc>
