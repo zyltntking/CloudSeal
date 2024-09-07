@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\data\\cloudseal.data.core\\modeldefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|solutionrelative:src\\data\\cloudseal.data.core\\modeldefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\data\\cloudseal.data.core\\entitydefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|solutionrelative:src\\data\\cloudseal.data.core\\entitydefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\data\\cloudseal.data.core\\slots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|solutionrelative:src\\data\\cloudseal.data.core\\slots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\data\\cloudseal.data.core\\istampproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|solutionrelative:src\\data\\cloudseal.data.core\\istampproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\data\\cloudseal.data.core\\modeldefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|solutionrelative:src\\data\\cloudseal.data.core\\modeldefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|c:\\users\\zyltn\\source\\repos\\zyltntking\\cloudseal\\src\\data\\cloudseal.data.core\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}|src\\Data\\CloudSeal.Data.Core\\CloudSeal.Data.Core.csproj|solutionrelative:src\\data\\cloudseal.data.core\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +30,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 232,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Slots.cs",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\Slots.cs",
+              "RelativeDocumentMoniker": "src\\Data\\CloudSeal.Data.Core\\Slots.cs",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\Slots.cs",
+              "RelativeToolTip": "src\\Data\\CloudSeal.Data.Core\\Slots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:20:39.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntityDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\EntityDefinitions.cs",
+              "RelativeDocumentMoniker": "src\\Data\\CloudSeal.Data.Core\\EntityDefinitions.cs",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\EntityDefinitions.cs",
+              "RelativeToolTip": "src\\Data\\CloudSeal.Data.Core\\EntityDefinitions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:15:54.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\README.md",
+              "RelativeDocumentMoniker": "src\\Data\\CloudSeal.Data.Core\\README.md",
+              "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\README.md",
+              "RelativeToolTip": "src\\Data\\CloudSeal.Data.Core\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-07T18:16:54.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IStampProxy.cs",
               "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\IStampProxy.cs",
               "RelativeDocumentMoniker": "src\\Data\\CloudSeal.Data.Core\\IStampProxy.cs",
               "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\IStampProxy.cs",
               "RelativeToolTip": "src\\Data\\CloudSeal.Data.Core\\IStampProxy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T18:00:29.234Z",
               "EditorCaption": ""
@@ -87,13 +138,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ModelDefinitions.cs",
               "DocumentMoniker": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\ModelDefinitions.cs",
               "RelativeDocumentMoniker": "src\\Data\\CloudSeal.Data.Core\\ModelDefinitions.cs",
               "ToolTip": "C:\\Users\\zyltn\\source\\repos\\zyltntking\\CloudSeal\\src\\Data\\CloudSeal.Data.Core\\ModelDefinitions.cs",
               "RelativeToolTip": "src\\Data\\CloudSeal.Data.Core\\ModelDefinitions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T18:00:10.66Z",
               "EditorCaption": ""

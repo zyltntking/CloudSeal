@@ -7,19 +7,16 @@ var password = builder.AddParameter("password", true);
 var redis = builder
     //.AddRedis("RedisInstance")
     //.PublishAsConnectionString();
-    .AddRedis("RedisInstance", port: 6379)
+    .AddRedis("RedisInstance", 6379)
     .WithImage("redis", "7.4")
-    .WithRedisCommander(config =>
-    {
-        config.WithHostPort(6380);
-    })
+    .WithRedisCommander(config => { config.WithHostPort(6380); })
     .WithDataVolume("redis-data-volume")
     .WithPersistence();
 
 var postgresql = builder
     //.AddPostgres("PostgresInstance")
     //.PublishAsConnectionString();
-    .AddPostgres("PostgresInstance", username, password, port: 5432)
+    .AddPostgres("PostgresInstance", username, password, 5432)
     .WithImage("postgres", "16.4")
     .WithPgAdmin(config =>
     {
@@ -30,11 +27,8 @@ var postgresql = builder
     .AddDatabase("CloudSeal");
 
 var mongodb = builder
-    .AddMongoDB("MongoInstance", port: 27017)
-    .WithMongoExpress(config =>
-    {
-        config.WithHostPort(27020);
-    })
+    .AddMongoDB("MongoInstance", 27017)
+    .WithMongoExpress(config => { config.WithHostPort(27020); })
     .WithDataVolume("mongo-data-volume")
     .WithVolume("mongo-configdb-volume", "/data/configdb")
     .AddDatabase("document");

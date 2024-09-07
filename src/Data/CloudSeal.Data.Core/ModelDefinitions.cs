@@ -43,7 +43,8 @@ public interface IPartitionModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, 
 /// <typeparam name="TSoftDeleteTimeStamp">软删除时间戳类型</typeparam>
 /// <typeparam name="TSoftDeleteHandler">软删除操作标识类型</typeparam>
 /// <typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
-public interface ISoftDeleteModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TSoftDeleteTimeStamp, TSoftDeleteHandler> :
+public interface ISoftDeleteModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TSoftDeleteTimeStamp,
+    TSoftDeleteHandler> :
     IModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler>,
     ISoftDeleteTimeStampSlot<TSoftDeleteTimeStamp>,
     ISoftDeleteHandlerSlot<TSoftDeleteHandler>
@@ -62,7 +63,8 @@ public interface ISoftDeleteModelDefinition<TKey, TConcurrencyStamp, TTimeStamp,
 /// <typeparam name="TSoftDeleteHandler">软删除操作标识类型</typeparam>
 /// <typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
 /// <typeparam name="TPartition">分区标识类型</typeparam>
-public interface ISoftDeletePartitionModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TSoftDeleteTimeStamp, TSoftDeleteHandler, TPartition> :
+public interface ISoftDeletePartitionModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler,
+    TSoftDeleteTimeStamp, TSoftDeleteHandler, TPartition> :
     ISoftDeleteModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TSoftDeleteTimeStamp, TSoftDeleteHandler>,
     IPartitionModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TPartition>
     where TKey : IEquatable<TKey>
@@ -72,7 +74,7 @@ public interface ISoftDeletePartitionModelDefinition<TKey, TConcurrencyStamp, TT
     where TPartition : IEquatable<TPartition>;
 
 /// <summary>
-/// 抽象默认模型定义
+///     抽象默认模型定义
 /// </summary>
 public abstract class DefaultModelDefinition : IModelDefinition<Guid, string, DateTime, Guid>
 {
@@ -108,9 +110,10 @@ public abstract class DefaultModelDefinition : IModelDefinition<Guid, string, Da
 }
 
 /// <summary>
-/// 抽象默认分区模型定义
+///     抽象默认分区模型定义
 /// </summary>
-public abstract class DefaultPartitionModelDefinition : DefaultModelDefinition, IPartitionModelDefinition<Guid, string, DateTime, Guid, int>
+public abstract class DefaultPartitionModelDefinition : DefaultModelDefinition,
+    IPartitionModelDefinition<Guid, string, DateTime, Guid, int>
 {
     /// <summary>
     ///     分区标识
@@ -119,9 +122,10 @@ public abstract class DefaultPartitionModelDefinition : DefaultModelDefinition, 
 }
 
 /// <summary>
-/// 抽象默认软删除模型定义
+///     抽象默认软删除模型定义
 /// </summary>
-public abstract class DefaultSoftDeleteModelDefinition : DefaultModelDefinition, ISoftDeleteModelDefinition<Guid, string, DateTime, Guid, DateTime?, Guid?>
+public abstract class DefaultSoftDeleteModelDefinition : DefaultModelDefinition,
+    ISoftDeleteModelDefinition<Guid, string, DateTime, Guid, DateTime?, Guid?>
 {
     /// <summary>
     ///     删除时间
@@ -135,9 +139,10 @@ public abstract class DefaultSoftDeleteModelDefinition : DefaultModelDefinition,
 }
 
 /// <summary>
-/// 抽象默认软删除分区模型定义
+///     抽象默认软删除分区模型定义
 /// </summary>
-public abstract class DefaultSoftDeletePartitionModelDefinition : DefaultSoftDeleteModelDefinition, ISoftDeletePartitionModelDefinition<Guid, string, DateTime, Guid, DateTime?, Guid?, int>
+public abstract class DefaultSoftDeletePartitionModelDefinition : DefaultSoftDeleteModelDefinition,
+    ISoftDeletePartitionModelDefinition<Guid, string, DateTime, Guid, DateTime?, Guid?, int>
 {
     /// <summary>
     ///     分区标识
