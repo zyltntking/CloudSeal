@@ -13,6 +13,11 @@ public interface IKeySlot<TKey> where TKey : IEquatable<TKey>
 }
 
 /// <summary>
+///     键插槽接口
+/// </summary>
+public interface IKeySlot : IKeySlot<Guid>;
+
+/// <summary>
 ///     父项目键插槽接口
 /// </summary>
 /// <typeparam name="TParentKey">夫项目键类型</typeparam>
@@ -23,6 +28,11 @@ public interface IParentKeySlot<TParentKey>
     /// </summary>
     TParentKey ParentId { get; set; }
 }
+
+/// <summary>
+///     父项目键插槽接口
+/// </summary>
+public interface IParentKeySlot : IParentKeySlot<Guid?>;
 
 /// <summary>
 ///     分区标识插槽接口
@@ -37,6 +47,11 @@ public interface IPartitionSlot<TPartition> where TPartition : IEquatable<TParti
 }
 
 /// <summary>
+///     分区标识插槽接口
+/// </summary>
+public interface IPartitionSlot : IPartitionSlot<int>;
+
+/// <summary>
 ///     校验戳插槽接口
 /// </summary>
 /// <typeparam name="TCheckStamp">校验戳类型</typeparam>
@@ -47,6 +62,11 @@ public interface ICheckStampSlot<TCheckStamp> where TCheckStamp : IEquatable<TCh
     /// </summary>
     TCheckStamp CheckStamp { get; set; }
 }
+
+/// <summary>
+///     校验戳插槽接口
+/// </summary>
+public interface ICheckStampSlot : ICheckStampSlot<string>;
 
 /// <summary>
 ///     安全戳插槽接口
@@ -61,6 +81,11 @@ public interface ISecurityStampSlot<TSecurityStamp>
 }
 
 /// <summary>
+///     安全戳插槽接口
+/// </summary>
+public interface ISecurityStampSlot : ISecurityStampSlot<string>;
+
+/// <summary>
 ///     并发戳插槽接口
 /// </summary>
 /// <typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
@@ -71,6 +96,11 @@ public interface IConcurrencyStampSlot<TConcurrencyStamp> where TConcurrencyStam
     /// </summary>
     TConcurrencyStamp ConcurrencyStamp { get; set; }
 }
+
+/// <summary>
+///     并发戳插槽接口
+/// </summary>
+public interface IConcurrencyStampSlot : IConcurrencyStampSlot<string>;
 
 /// <summary>
 ///     时间戳插槽接口
@@ -90,6 +120,11 @@ public interface ITimeStampSlot<TTimeStamp> where TTimeStamp : IEquatable<TTimeS
 }
 
 /// <summary>
+///     时间戳插槽接口
+/// </summary>
+public interface ITimeStampSlot : ITimeStampSlot<DateTime>;
+
+/// <summary>
 ///     软删除时间戳插槽接口
 /// </summary>
 /// <typeparam name="TTimeStamp">时间戳类型</typeparam>
@@ -100,6 +135,11 @@ public interface ISoftDeleteTimeStampSlot<TTimeStamp>
     /// </summary>
     TTimeStamp DeletedAt { get; set; }
 }
+
+/// <summary>
+///     软删除时间戳插槽接口
+/// </summary>
+public interface ISoftDeleteTimeStampSlot : ISoftDeleteTimeStampSlot<DateTime?>;
 
 /// <summary>
 ///     操作标识插槽接口
@@ -119,6 +159,11 @@ public interface IHandlerSlot<THandler> where THandler : IEquatable<THandler>
 }
 
 /// <summary>
+///     操作标识插槽接口
+/// </summary>
+public interface IHandlerSlot : IHandlerSlot<Guid>;
+
+/// <summary>
 ///     软删除操作标识插槽接口
 /// </summary>
 /// <typeparam name="THandler"></typeparam>
@@ -129,3 +174,8 @@ public interface ISoftDeleteHandlerSlot<THandler>
     /// </summary>
     THandler RemoveBy { get; set; }
 }
+
+/// <summary>
+///     软删除操作标识插槽接口
+/// </summary>
+public interface ISoftDeleteHandlerSlot : ISoftDeleteHandlerSlot<Guid?>;

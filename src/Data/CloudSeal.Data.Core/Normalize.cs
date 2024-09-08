@@ -9,4 +9,9 @@ public static class Normalize
     ///     并发戳
     /// </summary>
     public static string ConcurrencyStamp => Guid.NewGuid().ToString("N");
+
+    /// <summary>
+    ///     机密戳
+    /// </summary>
+    public static string SecurityStamp => Guid.NewGuid().ToString("N");
 }
