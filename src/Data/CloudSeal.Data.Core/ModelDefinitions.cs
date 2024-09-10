@@ -12,10 +12,10 @@ public interface IModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler>
     IConcurrencyStampSlot<TConcurrencyStamp>,
     ITimeStampSlot<TTimeStamp>,
     IHandlerSlot<THandler>
-    where TKey : IEquatable<TKey>
-    where TConcurrencyStamp : IEquatable<TConcurrencyStamp>
-    where TTimeStamp : IEquatable<TTimeStamp>
-    where THandler : IEquatable<THandler>;
+    where TKey : IComparable, IComparable<TKey>, IEquatable<TKey>
+    where TConcurrencyStamp : IComparable, IComparable<TConcurrencyStamp>, IEquatable<TConcurrencyStamp>
+    where TTimeStamp : IComparable, IComparable<TTimeStamp>, IEquatable<TTimeStamp>
+    where THandler : IComparable, IComparable<THandler>, IEquatable<THandler>;
 
 /// <summary>
 ///     模型定义接口
@@ -37,11 +37,11 @@ public interface IModelDefinition : IModelDefinition<Guid, string, DateTime, Gui
 public interface IPartitionModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TPartition> :
     IModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler>,
     IPartitionSlot<TPartition>
-    where TKey : IEquatable<TKey>
-    where TConcurrencyStamp : IEquatable<TConcurrencyStamp>
-    where TTimeStamp : IEquatable<TTimeStamp>
-    where THandler : IEquatable<THandler>
-    where TPartition : IEquatable<TPartition>;
+    where TKey : IComparable, IComparable<TKey>, IEquatable<TKey>
+    where TConcurrencyStamp : IComparable, IComparable<TConcurrencyStamp>, IEquatable<TConcurrencyStamp>
+    where TTimeStamp : IComparable, IComparable<TTimeStamp>, IEquatable<TTimeStamp>
+    where THandler : IComparable, IComparable<THandler>, IEquatable<THandler>
+    where TPartition : IComparable, IComparable<TPartition>, IEquatable<TPartition>;
 
 /// <summary>
 ///     分区模型定义接口
@@ -65,10 +65,10 @@ public interface ISoftDeleteModelDefinition<TKey, TConcurrencyStamp, TTimeStamp,
     IModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler>,
     ISoftDeleteTimeStampSlot<TSoftDeleteTimeStamp>,
     ISoftDeleteHandlerSlot<TSoftDeleteHandler>
-    where TKey : IEquatable<TKey>
-    where TConcurrencyStamp : IEquatable<TConcurrencyStamp>
-    where TTimeStamp : IEquatable<TTimeStamp>
-    where THandler : IEquatable<THandler>;
+    where TKey : IComparable, IComparable<TKey>, IEquatable<TKey>
+    where TConcurrencyStamp : IComparable, IComparable<TConcurrencyStamp>, IEquatable<TConcurrencyStamp>
+    where TTimeStamp : IComparable, IComparable<TTimeStamp>, IEquatable<TTimeStamp>
+    where THandler : IComparable, IComparable<THandler>, IEquatable<THandler>;
 
 /// <summary>
 ///     软删除模型定义接口
@@ -93,11 +93,11 @@ public interface ISoftDeletePartitionModelDefinition<TKey, TConcurrencyStamp, TT
     TSoftDeleteTimeStamp, TSoftDeleteHandler, TPartition> :
     ISoftDeleteModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TSoftDeleteTimeStamp, TSoftDeleteHandler>,
     IPartitionModelDefinition<TKey, TConcurrencyStamp, TTimeStamp, THandler, TPartition>
-    where TKey : IEquatable<TKey>
-    where TConcurrencyStamp : IEquatable<TConcurrencyStamp>
-    where TTimeStamp : IEquatable<TTimeStamp>
-    where THandler : IEquatable<THandler>
-    where TPartition : IEquatable<TPartition>;
+    where TKey : IEquatable<TKey>, IComparable, IComparable<TKey>
+    where TConcurrencyStamp : IEquatable<TConcurrencyStamp>, IComparable, IComparable<TConcurrencyStamp>
+    where TTimeStamp : IEquatable<TTimeStamp>, IComparable, IComparable<TTimeStamp>
+    where THandler : IEquatable<THandler>, IComparable, IComparable<THandler>
+    where TPartition : IEquatable<TPartition>, IComparable, IComparable<TPartition>;
 
 /// <summary>
 ///     软删除分区模型定义接口

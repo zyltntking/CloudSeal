@@ -4,7 +4,7 @@
 ///     键插槽接口
 /// </summary>
 /// <typeparam name="TKey">键类型</typeparam>
-public interface IKeySlot<TKey> where TKey : IEquatable<TKey>
+public interface IKeySlot<TKey> where TKey : IComparable, IComparable<TKey>, IEquatable<TKey>
 {
     /// <summary>
     ///     标识
@@ -38,7 +38,8 @@ public interface IParentKeySlot : IParentKeySlot<Guid?>;
 ///     分区标识插槽接口
 /// </summary>
 /// <typeparam name="TPartition">分区标识类型</typeparam>
-public interface IPartitionSlot<TPartition> where TPartition : IEquatable<TPartition>
+public interface IPartitionSlot<TPartition>
+    where TPartition : IComparable, IComparable<TPartition>, IEquatable<TPartition>
 {
     /// <summary>
     ///     分区标识
@@ -55,7 +56,8 @@ public interface IPartitionSlot : IPartitionSlot<int>;
 ///     校验戳插槽接口
 /// </summary>
 /// <typeparam name="TCheckStamp">校验戳类型</typeparam>
-public interface ICheckStampSlot<TCheckStamp> where TCheckStamp : IEquatable<TCheckStamp>
+public interface ICheckStampSlot<TCheckStamp>
+    where TCheckStamp : IComparable, IComparable<TCheckStamp>, IEquatable<TCheckStamp>
 {
     /// <summary>
     ///     校验戳
@@ -73,6 +75,7 @@ public interface ICheckStampSlot : ICheckStampSlot<string>;
 /// </summary>
 /// <typeparam name="TSecurityStamp">安全戳类型</typeparam>
 public interface ISecurityStampSlot<TSecurityStamp>
+    where TSecurityStamp : IComparable, IComparable<TSecurityStamp>, IEquatable<TSecurityStamp>
 {
     /// <summary>
     ///     安全戳
@@ -89,7 +92,8 @@ public interface ISecurityStampSlot : ISecurityStampSlot<string>;
 ///     并发戳插槽接口
 /// </summary>
 /// <typeparam name="TConcurrencyStamp">并发戳类型</typeparam>
-public interface IConcurrencyStampSlot<TConcurrencyStamp> where TConcurrencyStamp : IEquatable<TConcurrencyStamp>
+public interface IConcurrencyStampSlot<TConcurrencyStamp>
+    where TConcurrencyStamp : IComparable, IComparable<TConcurrencyStamp>, IEquatable<TConcurrencyStamp>
 {
     /// <summary>
     ///     并发戳
@@ -106,7 +110,8 @@ public interface IConcurrencyStampSlot : IConcurrencyStampSlot<string>;
 ///     时间戳插槽接口
 /// </summary>
 /// <typeparam name="TTimeStamp">时间戳类型</typeparam>
-public interface ITimeStampSlot<TTimeStamp> where TTimeStamp : IEquatable<TTimeStamp>
+public interface ITimeStampSlot<TTimeStamp>
+    where TTimeStamp : IComparable, IComparable<TTimeStamp>, IEquatable<TTimeStamp>
 {
     /// <summary>
     ///     创建时间
@@ -145,7 +150,7 @@ public interface ISoftDeleteTimeStampSlot : ISoftDeleteTimeStampSlot<DateTime?>;
 ///     操作标识插槽接口
 /// </summary>
 /// <typeparam name="THandler">操作标识类型</typeparam>
-public interface IHandlerSlot<THandler> where THandler : IEquatable<THandler>
+public interface IHandlerSlot<THandler> where THandler : IComparable, IComparable<THandler>, IEquatable<THandler>
 {
     /// <summary>
     ///     创建标识
@@ -166,7 +171,7 @@ public interface IHandlerSlot : IHandlerSlot<Guid>;
 /// <summary>
 ///     软删除操作标识插槽接口
 /// </summary>
-/// <typeparam name="THandler"></typeparam>
+/// <typeparam name="THandler">操作标识类型</typeparam>
 public interface ISoftDeleteHandlerSlot<THandler>
 {
     /// <summary>

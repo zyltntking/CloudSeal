@@ -9,7 +9,8 @@ namespace CloudSeal.Data.Store;
 /// <typeparam name="TEntity">实体类型</typeparam>
 /// <typeparam name="TKey">键类型</typeparam>
 public interface IEntityView<TEntity, TKey> : IKeyLessEntityView<TEntity>
-    where TEntity : class, IKeySlot<TKey> where TKey : IEquatable<TKey>
+    where TEntity : class, IKeySlot<TKey>
+    where TKey : IEquatable<TKey>, IComparable, IComparable<TKey>
 {
     #region Access
 
