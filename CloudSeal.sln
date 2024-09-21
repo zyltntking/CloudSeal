@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudSeal.Data.Core", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudSeal.Data.Store", "src\Data\CloudSeal.Data.Store\CloudSeal.Data.Store.csproj", "{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudSeal.App.ServicesContainer", "src\App\CloudSeal.App.ServicesContainer\CloudSeal.App.ServicesContainer.csproj", "{AA54D687-1619-4162-B8EE-95C7B35EF300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA54D687-1619-4162-B8EE-95C7B35EF300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA54D687-1619-4162-B8EE-95C7B35EF300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA54D687-1619-4162-B8EE-95C7B35EF300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA54D687-1619-4162-B8EE-95C7B35EF300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E} = {29AC4E20-2798-45DE-B91F-2FB0A5B0B983}
 		{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D} = {29AC4E20-2798-45DE-B91F-2FB0A5B0B983}
+		{AA54D687-1619-4162-B8EE-95C7B35EF300} = {AAD2D1A5-27B3-44A7-B48C-83B7935FBB72}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60464CE3-1106-4BC6-9F67-95A196E5A0D9}

@@ -1,0 +1,6 @@
+@CloudSeal.App.ServicesContainer_HostAddress = http://localhost:5171
+
+GET {{CloudSeal.App.ServicesContainer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
