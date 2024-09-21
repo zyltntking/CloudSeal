@@ -9,13 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{9B0E4610-3FD0-4233-AB2A-2717769EBF50}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudSeal.App.CloudSealHost", "src\App\CloudSeal.App.CloudSealHost\CloudSeal.App.CloudSealHost.csproj", "{049DB59F-1986-49DF-B6A0-92231FB3ED90}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{29AC4E20-2798-45DE-B91F-2FB0A5B0B983}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudSeal.Data.Core", "src\Data\CloudSeal.Data.Core\CloudSeal.Data.Core.csproj", "{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudSeal.Data.Store", "src\Data\CloudSeal.Data.Store\CloudSeal.Data.Store.csproj", "{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudSeal.Data.Store", "src\Data\CloudSeal.Data.Store\CloudSeal.Data.Store.csproj", "{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{049DB59F-1986-49DF-B6A0-92231FB3ED90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{049DB59F-1986-49DF-B6A0-92231FB3ED90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{049DB59F-1986-49DF-B6A0-92231FB3ED90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{049DB59F-1986-49DF-B6A0-92231FB3ED90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,7 +34,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{049DB59F-1986-49DF-B6A0-92231FB3ED90} = {AAD2D1A5-27B3-44A7-B48C-83B7935FBB72}
 		{AD8D9B78-D364-4E31-B92B-2A0C909A2E9E} = {29AC4E20-2798-45DE-B91F-2FB0A5B0B983}
 		{A1ED66D3-1A0C-44B8-85BB-69FF8CCE572D} = {29AC4E20-2798-45DE-B91F-2FB0A5B0B983}
 	EndGlobalSection

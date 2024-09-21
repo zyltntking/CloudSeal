@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Data",
+    "\\src\\Data\\CloudSeal.Data.Store"
   ],
-  "SelectedNode": "\\CloudSeal.sln",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
